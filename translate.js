@@ -2,7 +2,7 @@ const translate = require('google-translate-api');
 
 let input = (process.argv[2]) || "You couldn't touch the sides without letting the water in, so we all huddled up into one mass in the centre."
 //English > Welsh > Sinhala > Italian > Japanese > French > English
-let languages = (process.argv[3]) || ['en', 'cy', 'it', 'ja', 'fr', 'en'];
+let languages = (process.argv[3]).split(',') || ['en', 'cy', 'it', 'ja', 'fr', 'en'];
 let lanIndex = 0;
 
 function nextLanguage(input){
