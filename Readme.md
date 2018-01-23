@@ -1,5 +1,6 @@
 Install:
-Clone or Download repo.
+
+Clone or Download repository
 
 From the command line:
 ```bash
@@ -8,7 +9,6 @@ npm install
 
 Then to translate:
 ```bash
-
 node translate.js {phrase} {language codes}
 example:
 node translate.js "All work and no play makes Jake a dull boy" "en,cy,it,ja,fr,en"
