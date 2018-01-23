@@ -11,7 +11,7 @@ Then to translate:
 
 node translate.js {phrase} {language codes}
 example:
-node translate.js "All work and no play makes Jake a dull boy" "en,fr,de,nl,ja,en"
+node translate.js "All work and no play makes Jake a dull boy" "en,cy,it,ja,fr,en"
 ```
 
 
