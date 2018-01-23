@@ -1,0 +1,23 @@
+{
+  "name": "recursive-translation",
+  "version": "1.0.0",
+  "description": "Simple script to put phrase through a series of different languages",
+  "main": "translate.js",
+  "dependencies": {
+    "google-translate-api": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulhayes/recursive-translation.git"
+  },
+  "author": "Paul Hayes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paulhayes/recursive-translation/issues"
+  },
+  "homepage": "https://github.com/paulhayes/recursive-translation#readme"
+}
